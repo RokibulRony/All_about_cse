@@ -1,0 +1,70 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/subject_layout_shape"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="Discrete Mathematics"
+                    android:textColor="#ffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Set Theory,  Relations,  Functions,  Graph Theory,  Planer Graph and Trees,  Direct graphs and Binary Trees,  Algebraic Systems,  Ordered sets and lattices,   Propositional Calculus,  Boolean Algebra,  Lattices,  group theory,  cyclic groups,  permutation groups,  symmetry groups,  quotient,  homomorphism,  Basic structure theory,  Prepositional and Predicate logic,  Mathematical reasoning and program techniques.  Theories with induction. C ounting and countability. Graph and trees. Morphisms,  Algebraic structures." />
+
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Reference Books:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff000f"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="01.	K.H. Rosen, Discrete Mathematics and Its Applications, McGraw Hill, 4th ED 2000 		\n\n02.	O. Nicodemi, Discrete Mathematics CBS, 1989  		\n\n03.	J. C. Molluzzo and F.Buckley( Waveland Press, reprinted 1997) ISBN 0-8833-9407
+				"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,110 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:padding="13dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/subject_layout_shape"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="Microprocessor and Assembly Language"
+                    android:textColor="#ffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Microprocessors:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Evolution of microprocessors,  register base and accumulator based microprocessor,  programmable logic devices;  main memory array design,  memory management concepts,  input/ Out techniques,  internal architecture of microprocessor:  8085,  8086,  addressing mode,  instruction format,  instruction set,  pin configuration and function,  maximum/ minimum mode,  read/write cycle,  memory bank,  interrupt and interrupt handling,  interrupt controller, DMA." />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Advanced microprocessors:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Internal architecture,  memory management,  protection,  an overview of Intel 80186,  80286,  80386,  80486,  Pentium microprocessors,  RISC processor,  Coprocessor,  Alpha processor." />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Assembly Language:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Programming with 8086 instruction,  conditional and unconditional jump,  string instruction,  stacks operation,  procedure,  reentrant and recursive procedure,  macro." />
+
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Reference Books:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff000f"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="01.  		D.V Hall, Microprocessors and Interfacing, McGrow-Hill, 1987 		\n\n02. 		M.Rafiquzzaman, Microprocessors and Microprocessor based system design           \n\n03.        Y.Liu and G.A. Ginson, Microcomputer system:8086/8088 family
+				"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

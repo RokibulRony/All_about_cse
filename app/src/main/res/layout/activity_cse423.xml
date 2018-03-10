@@ -1,0 +1,116 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:padding="13dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/subject_layout_shape"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="Computer and Network Security"
+                    android:textColor="#ffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Cryptography and cryptographic algorithms:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Traditional cryptographic algorithms:  traditional cryptography,  cryptanalysis,  Private-key (symmetric-key) and public-key (asymmetric-key) cryptographic algorithms,  DES and block cipher modes,  advanced encryption standard,  RSA and other public key cryptosystems,  key management,  Diffie-Hellman key exchange,  Elliptic curve cryptography,  cryptography hash functions,  secure hash algorithm,  message authentication codes,  Digital signatures and digital signature standard.
+
+
+" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Cryptography and network security:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Data-origin authentication and data integrity,  Key distribution,  management,  Kerberos and X.509 authentication service,  certificate authotity and public key infrastructure,  Email security,  PGP and S/MIME,  IP Security,  authentication header and ESP,  Security associations,  Key management,  eb security considerations,  secure socket layer and transport layer security,  secure electronic transactions (SET).
+
+
+" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Cryptography for antivirus software and password management:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=" generic decryption,  digital immune system and UNIX password scheme.
+" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Reference Books:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff000f"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="01. 	Cryptography and Network Security, William Stallings.     		\n\n02.   Hand book of Applied Cryptography, by A. Menezes, P.van Oorschot, and S. Vanstone, CRC press, 1996 ( www.cacr.math.uwaterloo.ca/hac)"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

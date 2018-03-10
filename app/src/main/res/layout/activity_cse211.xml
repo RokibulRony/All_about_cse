@@ -1,0 +1,74 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:padding="13dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/subject_layout_shape"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="Object Oriented Programming"
+                    android:textColor="#ffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Principles of Object-Oriented Programming;  Beginning with C++;  Tokens,  Expressions and Control Structure;  Functions in C++;  Classes and objects;  Constructors and Destructors;  Operator Overloading and Type conversions;  Inheritance: Extending classes;  Pointers,  Virtual Functions and Polymorphism;  Managing console I/O operations;  Working with Files;  Exception Handling;  Template functions and classes;  Multi-threaded Programming.
+
+Introduction to java,  comparison between java and c++.
+" />
+
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Reference Books:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff000f"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="01.	E Balagurusamy “Object- oriented programming with C++”  		\n\n02.		Robert Lafore “Turbo C++”   		\n\n03.	Herbert Schildt “Turbo C++, The complete Reference”           \n\n04.	Herbert Schildt “ Teach Yourself C++ “
+				"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

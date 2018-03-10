@@ -1,0 +1,119 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/subject_layout_shape"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="Web Engineering"
+                    android:textColor="#ffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=" Introduction to Web application technology,  basic concepts,  Client Server architecture,  Web browser and Web servers,  WWW,  structure of a website,  popular websites and their speciality,   basic concepts static and dynamic web sectors,   different web problems like Hoaxes,  Spyware, Viruses and Pop-ups etc.
+" />
+
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Brief history of Mark-up languages,  HTML and introduction to HTML,  basic HTML tags,  adding links to different pages,  inserting images,  back ground sounds,  GIF,  Animations,  form and form components,  Contact/Feed back Forms (Text box,  Text fields,  pull-down menu,  submit/reset Button,  redirection between Web pages.
+" />
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CSS,  basic concepts of CSS,  CSS handlers,  creating custom text styles using CSS,  using/calling CSS functions in forms , changing links.
+
+
+" />
+
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Introduction to Java scripts,  Using Basic Java Scripts functions like writeline,  time,  date etc.  Using Simple scripts on different mouse events,  Changing page Title,  Using java Scripts to design multi-state image links,  pull- down menus,  embedding dynamic elements with Java Scripts,  advanced custom tags.
+" />
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Basic Concepts of Java applet ,  building simple applets with images,  text and links,  supported platform and browsers,  common problems and trouble shooting.  Basic concepts of DHTML,  How it uses HTML,  Java Scripts and CSS components.  Texts,  links and Image array.
+" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=" PHP,  Supported platforms,  basic programming concepts and its dynamism,  Simple PHP scripts to write/read inputs in forms and using in Dynamic forms.  Integrating PHP and My-SQL,  Using PHP Forms to manipulate data in the database,  Data Validation,  Session,  security,  Web application development.
+" />
+
+
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Reference Books:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff000f"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="01. 	Chris Lea, Wankyu Choi,Allan Kent,Ganesh Prasad,Chris Ullman. Beginning Php 4 (Programmer to Programmer). 	\n\n02. 	Surid Sharkar, CSS/Java Script.         \n\n03.  	Web Design Complete Reference by Thomas A. Powell     \n\n04.   	 Creating Web Pages with HTML Simplified Sherry Willard Kinkoph
+ 		 \n\n05.   	 Web Design in a Nutshell (O’RELLY) Jennifer Niederst "
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

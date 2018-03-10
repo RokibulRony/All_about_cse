@@ -1,0 +1,126 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/subject_layout_shape"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="Physics (Electricity and magnetism)"
+                    android:textColor="#ffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Charge , Electric	field &amp;	Gauss’s	Law:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Simple phenomena in electrostatics	,	Electrostatic induction and charge density	; Coulomb’s law	;	 Electric field &amp; field strength	; 	Point charge in an electric field		;	 Dipole in an electric field	;	 Electric flux		;	 Gauss’s law and some applications	;	 Electric potential	 ;	 Potential due to a point charge	; 	Equipotential surfaces	;	 Potential energy	; 	Potential gradient	;	 Capacitance and its calculation		; 	Parallel plate capacitor with dielectric	;	 Dielectric &amp; Gauss’s law 	;	  Electric vectors; Energy stored in an electric field." />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Electric current , Simple circuits and Electrical Measurements: "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Current and Ohm’s law; E.M.F. and potential difference; Whetstone bridge; Simple RC and RL circuits; The potentiometer; Moving coil galvanometer; Ammeter; Voltmeter; Multimeter; Wattmeter &amp; Energy meter; Measurements of Voltage; current; Resistance; Inductance ; Capacitance; Power and Energy." />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Magnetic Field &amp; force on Current:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Coulomb’s law; Magnetic field and field strength; Magnetic force on current; Directions of current and field; Maxwell’s screw rule; Fleming’s left hand rule; Magnetic field near long wire; Magnetic field in----; Fleming’s right hand rule." />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Magnetic properties of matter:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Poles and dipoles; Coulomb’s law for magnets &amp; Gauss’s theorem of magnetism; Dia-magnetism; Para-magnetism; Ferro-magnetism; Magneto motive force and field intensity; Concept of self and mutual inductance; The co-efficient of magnetic coupling; Rise of current and decay of current in inductive circuit; Energy in magnetic field; Inductance in series and parallel; Hysteresis and eddy current losses." />
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Reference Books:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff000f"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="01. David Halliday and Robert Resin, Physics Part-II
+            	\n\n02. Boylested, Introductory Circuit Analysis
+            	\n\n03. B.L. Theraja, A Text book of Electrical Technology
+				"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

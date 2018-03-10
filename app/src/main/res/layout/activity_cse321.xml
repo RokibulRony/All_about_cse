@@ -1,0 +1,150 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:padding="13dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/subject_layout_shape"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="Software Engineering"
+                    android:textColor="#ffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Software Engineering Paradigms:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Definition of S/W Eng.;  The classical life cycle;  Prototyping fourth generation technique;  The product and the process model,  Generic view of software engineering,  Boehm's spiral model,  Measurement and Matrices.
+" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Requirements Analysis Fundamentals:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Analysis principle;  Feasibility Study,  Software Prototyping Specification;  Requirement Analysis Methodologies;  Structured and object oriented analysis;  Data Flow-oriented analysis methods." />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Software Design Fundamentals:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Design process;  Design fundamentals:  S/W architecture,  Program structure,  Data structure,  S/W procedure,  Modularity,  abstraction;  Effective modular design;  Procedural design;  Data flow-oriented Design;  Top-down and bottom-up design;  Design process considerations;  Transform analysis;  Transaction analysis;  Data structure-oriented design:  Logical construction of programs and systems,  Data structured systems development;  Object-oriented design;  Design concepts; Methods;  strategy.  Real -time Design;  Coding style:  Code documentation,  Data declaration,  statement construction,  Input/output,  Software reliability.
+" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Software Testing Techniques and Strategies: "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=" Software Testing method,  Testing fundamentals &amp; strategies;  White box testing;  Basis path testing;  Loop testing;  Black Box testing.  Verification and validation;  Organization for software testing;  Defect testing;  Integration testing;  Validation testing;  System testing;  The art of debugging.
+
+" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Software Management and Maintenance Technique:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Maintenance process,  System documentation,  Maintenance cost,  Configuration management &amp; planning,  Change management,  person &amp; release management,  Software cost estimation technique,  Algorithmic cost modeling,  The COCOMO model,  Software quality assurance &amp; activities,  McCall’s quality factor,  Software reuse,  Software re-engineering,  Computer Aided Software Engineering (CASE) tool
+
+
+" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Reference Books:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff000f"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="01. 		Software Engineering by Lan Sommerville  		\n\n02. 	Software Engineering by Roger S. Pressman   		\n\n03.     	Software Engineering by Martin L. Shooman
+				"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

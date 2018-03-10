@@ -1,0 +1,79 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:padding="13dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/subject_layout_shape"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="Assembly Language Practical"
+                    android:textColor="#ffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Laboratory works based on CSE-312"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:text="Display message (n) times in different line;  simple arithmetic operation;  Convert a lowercase letter to an uppercase letter and vice versa;  Display all alphabetic characters;  Input two numbers,  compare them and display the smaller one and vice versa;  Accept a string from keyboard and display the string in reverse order;  Find the largest element from an array and vice versa;  perform bubble sort;  display first ten numbers by Fibonacci Series;  Calculate sum and average of few numbers;  Convert hexadecimal number to binary equivalent;  If a character is “y” or “Y”,  Display it,  otherwise terminate;  Calculate the following expression=M+N-P+1(Using Subroutine);  Calculate following operation:  if x>y then (M/N) +P else (M-N)*P ; (IF-ELSE Statement)."
+                />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Reference Books:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff000f"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="01.  		Assembly Language Programming, Marut 		\n\n02. 		Assembly Language Programming, Richard C. Detmer            \n\n03.       	Assembly Language Programming, Vanugopal 	      \n\n04.       	Techniques for the IBM PC, Alan R. Miller
+				"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

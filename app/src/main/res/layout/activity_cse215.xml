@@ -1,0 +1,60 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:padding="13dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/subject_layout_shape"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="Digital Logic Design Practical"
+                    android:textColor="#ffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Laboratory works based on CSE-214"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:text="Minimize and Implementation of Boolean Functions Using Logic Gates,  Design Half Adder and Full Adder,  Design Half Subtractor and Full Subtractor,  Verify the Truth Table of S-R, T,  D Flip-Flop,  Verify the Truth Table of J-K,  Prepare Different Type Shift Resister and Check Its Operation,  Design Synchronous Counter,  Design Asynchronous Counter,  Design Ripple Counter,  Design Johnson and Ring counter,  Verify the Operation of Encoder and Decoder,  Verify the Operation of Multiplexer,  De-Multiplexer,  Verify the Operation of D/A and A/D Converter."
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:divider="@drawable/bottom_line"
+        android:showDividers="middle"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnSyllabus"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/syllabus"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="Syllabus" />
+
+        <Button
+            android:id="@+id/btnCgpa"
+            style="@style/DashboardButton"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/calculator"
+            android:textAllCaps="false"
+            android:text="CGPA Calcul.." />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#88676767" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:divider="@drawable/bottom_line"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="-4dp"
+        android:showDividers="middle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnNotice"
+            style="@style/DashboardButton"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/notic"
+            android:textAllCaps="false"
+            android:text="Notice" />
+
+        <Button
+            android:id="@+id/btnQuestion"
+            style="@style/DashboardButton"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/question"
+            android:textAllCaps="false"
+            android:text="Questions" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#88676767" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:divider="@drawable/bottom_line"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="-4dp"
+            android:showDividers="middle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnresource"
+                style="@style/DashboardButton"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/resource"
+                android:textAllCaps="false"
+                android:text="Resources" />
+
+            <Button
+                android:id="@+id/btnInfo"
+                style="@style/DashboardButton"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/info"
+                android:textAllCaps="false"
+                android:text="Profile" />
+        </LinearLayout>
+</LinearLayout>

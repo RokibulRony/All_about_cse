@@ -1,0 +1,63 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:padding="13dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/subject_layout_shape"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="Compiler Design Practical"
+                    android:textColor="#ffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Laboratory works based on CSE-326"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:text="Lex specification to recognize the following verb:  is,  am,  are , were,  was,  be,  being, been, do, does, did, will, would, should, can, could, has, have, had, go. Lex specification to recognize the following words as different parts of speech:  is,  am,  are, were, go, very, simply, quickly, gently, to, from, behind, between, if, then.  Lex specification to recognize different keyword.  Lex specification to recognize the identifier.  Lex specification to recognize real numbers.  Lex specification to recognize integer.   Lex specification to recognize float.  Lex specification to recognize for the positive and negative integer and float number.  Lex specification to recognize different punctuation symbol.  Lex specification to recognize digit.  Lex program to eat up comments.  Lex program to find out user name. Lex program to recognize different types of operator.  Checking the validity of an arithmetic expression using CFG.  Converting Regular Grammar into Regular expression.  Parsing any string using a CFG
+
+
+"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,134 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:padding="13dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/subject_layout_shape"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="System Analysis and Design"
+                    android:textColor="#ffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="The systems Development Environment:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=": Introduction- A modern approach to systems analysis and design,  your role and other organizational responsibilities in systems development types of information systems and systems development,  Developing information systems and the systems development life cycle.
+Succeeding as a systems analyst,  acquiring the techniques of the systems analyst;  automated tools for systems development prototyping,  reusable code CASE tools.   Visual and emerging development tools- object oriented development tools,  visual development tools,  evolution and future of development tools.
+
+" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Analysis: "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Fundamental principles of systems analysis,  the preliminary investigation phase,  determining systems requirements,  traditional methods for determining requirements,  modern methods for determining systems requirements,  feasibility study;  structuring system requirements- Process modeling,  data flow diagramming,  logic modeling with structured English,   decision trees,   Decision tables,   Data dictionary,   process descriptions,   conceptual data modeling.
+" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="The design phase: "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="the logical representation of data,  design of physical files and database,  design principles and output design,  input design,  designing forms and reports,  designing databases,  designing the internals- program and process,  Designing distributed systems.
+
+System development and implementation: program and process design,  Verification and validation,  methods of errors checking and testing;  installation-Direct,  parallel single location,  phased and planning.
+
+" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="System maintenance:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=" documentation;  maintenance information system,  the process of maintaining information systems,  the process of maintaining information systems,  types of maintenance,  managing maintenance,  documentation the system-user document,  programmer document and operational document.
+" />
+
+
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Reference Books:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff000f"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="01. 		Modern systems analysis &amp; design, Jefrey A.  Hoffer etc all,  Pearson education Asia,  3rd edition,  2001.  		\n\n02. 	Systems Analysis and Design,  Shin Yen Wu, West Publishing Company,  1994.     		\n\n03.     	Information System:  A Management Perspective,  2nd Edition Steven A Benjamin/ Cummings 1996.      \n\n04.     	Information Systems:  Theory and Practice,  5th Edition,  J Burch and G Grundnitski (John Wiley and Sons, 1989).   			         	"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,149 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:padding="10dp"
+            android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="Information about National University"
+                    android:textColor="#FF000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/nu1" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:layout_marginTop="5dp"
+                android:textColor="#3b3838"
+                android:textSize="14dp"
+                android:text="National University, Bangladesh is a parent University of Bangladesh that was establish by an act of parliament as an affiliating university of the country to impart graduate and post-graduate level education to the students according to enrolment. The head-quarter is in Gazipur. On the outskirts of Dhaka. It is establish in 1992. The national university of Bangladesh is now the fifth largest university in the world after its 7th-year history by its numbers of registered students at affiliated colleges. It is also one of the largest universities in the world by number of affiliated colleges and number of expending subjects and courses."
+                />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:text="Academic Departments"
+                android:textColor="#FF000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:layout_marginTop="5dp"
+                android:textColor="#3b3838"
+                android:textSize="14dp"
+                android:text="There are many departments/faculties under National University. Computer Science and Engineering department is one of them.
+The objective of the 4 years Hons. Degree in Computer Science and Engineering is to enable the students to be competent computer hardware and software professionals as well as to perform further studies. National university pursues a policy of continuous updating and improving the new four (4) year course curricula having 8 (eight) semester total credits 145 for Bachelor Degree in computer science and Engineering (BSc. Engg.).
+"
+                />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/nu2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Program Detail"
+                android:textColor="#FF000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="#3b3838"
+                android:textSize="14dp"
+                android:text="Computer Science and Engineering (CSE) Total course required 145 cr.hrs.\n\n
+
+Core Course         ------  124 cr. \n
+
+GED Course         ------    12 cr. \n
+
+Elective Course    ------      3 cr. \n
+
+Project &amp; Thesis   ------      6 cr. \n\n
+
+Here, Core Course bears 3 cr. for Per subject among them for each (per) Lab class/ Practical class bears 1.5 cr. Total Core Course 124 cr. For each GED (General Education Development) Course provides or bears 3 cr. Elective Course/ Subject also bears 3 cr. Elective Subjects are Image Processing, VLSI Design, Simulation &amp; Modeling and E-Commerce. Students can be choose only one Elective Subject which providing by the institution. Project and Thesis paper bears 6 cr. And Project work must be started in 7th semester.
+"
+                />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Objectives of App"
+                android:textColor="#FF000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:layout_marginTop="5dp"
+                android:textColor="#3b3838"
+                android:textSize="14dp"
+                android:text="This App make for computer science &amp; engineering student, it has a special role too. The main goal of this document is to make such an application that will keep information of a CSE student who study in National University. Under National University any student of CSE can take some opportunities by this App as easily.
+
+'n\n1.	This App bears Syllabus, Recent Notice, Subject Credits, and Reference Books for each semesters.\n
+2.	This system will help a student to calculate his/her CGPA of first to final semester and store it into the database.\n
+3.	A student can also download previous board question by using this application.\n
+4.	There is an informational database about the student’s basic information.  \n
+5.	This Application is use less memory space and use it very flexibly in an Android phone, so that he/she can get any information about his study.\n
+"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

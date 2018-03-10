@@ -1,0 +1,150 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:padding="13dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/subject_layout_shape"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="Digital Signal Processing"
+                    android:textColor="#ffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Introduction to Digital Signal Processing (DSP):"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=" Introduction;  Digital Signal Processing;  Sampling and Analog-to-Digital Conversion;  Discrete Time Signals;  Ambiguity in Digital signals;  Discrete Time Systems;  Application areas for DSP;  Keys of DSP operations:  Convolution,  Correlation,  Digital Filtering,  Discrete Transformation,  Modulation;  System Design:  Methodology &amp; Implementation Methodology.
+
+
+" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Discrete Fourier transform: "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Fourier series,  one dimensional Fourier transforms, d iscrete Fourier Transform (DFT) and its properties,  Fast Fourier Transform (FFT) and its algorithm,  Inverse discrete Fourier transformation.
+
+
+" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="The Z-Transform :"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=" Introduction to z-Transform;  General Results of z-transform;  Inverse z-Transform:  Partial Fraction Expansion,  Power Series Expansion,  Contour Integration;  Comparison of inverse z-transform method;  Properties of z-transform;  Complex Convolution Theorem and Parseval's Relation.
+" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Implementation of Discrete-Time Systems:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=" Introduction;  Block Diagram and Signal Flow Graph Representation of Digital Networks;  Matrix Representation of Digital Networks;  Basic Structures of IIR Systems:  Direct Form,  Cascade forms,  Parallel Form;  Transposed Forms;  Basic Structures of FIR Systems;  Finite Precision Effects.
+" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Design of Digital Filters:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Introduction to Digital Filters;  Types of Digital Filters:  FIR and IIR;  Choosing between FIR and IIR Filters:  Digital Filter Design Steps;  Design of FIR Filters:  Design of FIR Filters by Windowing,  Design of Optimum Equiripple Linear-Phase FIR Filters,  Design of IIR Filters:  Classical Continuous-Time Low-Pass Filter Approximations,  Conversion of Transfer Functions from Continuous to Discrete Time,  Frequency Transformations of Low pass Filters,  Adaptive digital filters:  concepts of adaptive filtering,  basic wiener filter theory,  the basic LMS adaptive algorithm,  recursive least square algorithm.
+
+" />
+
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Reference Books:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff000f"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="01. 		Emmanuel C. Ifeachor, Barrie W. jervis. Digital Signal Processing.    		\n\n02. 	John G. Proakis, Dimitris G. Manolakis, Digital Signal Processing – Principles, Algorithms, and applications.     		\n\n03.      Alan V. Oppenheim, Ronald W. Schafer, John R. Buck, Dicrete-Time signal Processing.            			         	"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

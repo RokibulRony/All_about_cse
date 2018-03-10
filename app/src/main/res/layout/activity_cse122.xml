@@ -1,0 +1,58 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/subject_layout_shape"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="Data Structure Practical"
+                    android:textColor="#ffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Laboratory works based on CSE-121"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Operation on array of character (Single character,  substring insertion,  deletion,  counting,  find, etc),  Usage of built-in string function declared in STRING.H file,  Declaration and use of single/ multiple structure/ record type variables,  Searching algorithms (Linear, Binary),  Sorting Algorithms (Bubble,  insertion,  merge, Quick),  Usage of pointer variable and memory allocation,  Usage of address arithmetic,  Usage of call by reference variable,  Usage of pointer in structure variables and implementation as link list,  Operation on one-way link list (Creation,  display,  insertion,  deletion,  append etc.),  Declaration and operation on stack (Push, Pop) and queue (Dequeue),  Recursive function (Towers Hanoi),  Binary tree implementation,  Infix,  prefix,  postfix transformation using array,  Traversing techniques (In- order, preorder, post-order),  Calculation of paths and nodes as well as height of a graph and tree,  Advanced sorting technique (Heap sort)." />
+
+
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

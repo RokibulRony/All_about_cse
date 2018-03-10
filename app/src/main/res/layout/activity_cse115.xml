@@ -1,0 +1,95 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/subject_layout_shape"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="Differential Calculus and Co-Ordinate Geometry"
+                    android:textColor="#ffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Differential Calculus:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Limits, continuity and differentiability; Successive differentiation of various types of functions; Leivniz’s theorem; Rolle’s theorem; Mean value theorem in finite and infinite forms; Lagrange’s form of remainders; Cauchy’s form of remainders; Expansion of functions; Evaluation indeterminate forms by L’Hospitals rule; Partial differentiation; Euler’s theorem; Tangent and Normal , Sub-tangent and sub-normal in Cartesian and polar co-ordinates; Maximum and minimum values of functions of single variable; Points of inflexion; Curvature; Radius of curvature; Centre of curvature Asymptotes, curve tracing." />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Co-ordinate Geometry:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Transformation of co-ordinates axes and it uses; Equation of conics and its reduction to standard forms; Pair of straight lines; Homogeneous equations of second degrees; Angle between a pair of straight lines; Pair of lines joining the origin to the point of intersection of two given curves; Circles; System of circles; Orthogonal circles; radical axis, radical centre, properties of radical axes; Coaxial circles and limiting points; Equations of parabola; Ellipse and hyperbola in Cartesian and polar co-ordinates; Tangents and normals; pair of tangents; Chord of contact; Chord in terms of its middle points; Pole and polar parametric co-ordinates; diameters; Conjugate diameters and their properties; Director circles and asymptotes." />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Reference Books:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff000f"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="01. Dr. Abdul Matin, Differential Calculus.
+            	\n\n02. Abu Yusuf, Differential Calculus and Integral Calculus.
+            	\n\n03.B.C Das &amp; B.N. Mukherjee,  Differential Calculus.
+            	\n\n04. A textbook of Co-ordinate Geometry( Two and three dimensions)
+            	\n\n05. Rahman and Bhattacharja,  Co-ordinate Geometry and Vector Analysis.
+				"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

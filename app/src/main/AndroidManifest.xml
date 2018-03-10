@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rony.allaboutcse">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutAppActivity" />
+        <activity android:name=".FirstSyllabusActivity" />
+        <activity android:name=".CSE111Activity" />
+        <activity android:name=".CSE112Activity" />
+        <activity android:name=".SecondSyllabusActivity" />
+        <activity android:name=".CSE121Activity" />
+        <activity android:name=".CSE122Activity" />
+        <activity android:name=".CSE123Activity" />
+        <activity android:name=".CSE124Activity" />
+        <activity android:name=".CSE125Activity" />
+        <activity android:name=".CSE126Activity" />
+        <activity android:name=".CSE127Activity" />
+        <activity android:name=".CSE113Activity" />
+        <activity android:name=".CSE114Activity" />
+        <activity android:name=".CSE115Activity" />
+        <activity android:name=".CSE116Activity" />
+        <activity android:name=".FirstCalulatorActivity" />
+        <activity android:name=".FirstQuestionActivity" />
+        <activity android:name=".NoticeActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".UserListActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".BookResActivity" />
+        <activity android:name=".DocResActivity" />
+        <activity android:name=".SolveResActivity" />
+        <activity android:name=".YourResActivity" />
+        <activity android:name=".SecondCalculatorActivity" />
+        <activity android:name=".FinalCGPAActivity" />
+        <activity android:name=".ThirdSyllabusActivity" />
+        <activity android:name=".FourthSyllabusActivity" />
+        <activity android:name=".FifthSyllabusActivity" />
+        <activity android:name=".SixthSyllabusActivity" />
+        <activity android:name=".SeventhSyllabusActivity" />
+        <activity android:name=".EightSyllabusActivity" />
+        <activity android:name=".ThirdCalculatorActivity" />
+        <activity android:name=".FourthCalculatorActivity" />
+        <activity android:name=".FifthCalculatorActivity" />
+        <activity android:name=".SixthCalculatorActivity" />
+        <activity android:name=".SeventhCalculatorActivity" />
+        <activity android:name=".EightCalulatorActivity" />
+        <activity android:name=".EighthCalculatorActivity" />
+        <activity android:name=".CSE211Activity" />
+        <activity android:name=".CSE212Activity" />
+        <activity android:name=".CSE213Activity" />
+        <activity android:name=".CSE214Activity" />
+        <activity android:name=".CSE215Activity" />
+        <activity android:name=".CSE216Activity" />
+        <activity android:name=".CSE217Activity" />
+        <activity android:name=".CSE218Activity" />
+        <activity android:name=".CSE219Activity" />
+        <activity android:name=".CSE221Activity" />
+        <activity android:name=".CSE222Activity" />
+        <activity android:name=".CSE223Activity" />
+        <activity android:name=".CSE224Activity" />
+        <activity android:name=".CSE225Activity" />
+        <activity android:name=".CSE226Activity" />
+        <activity android:name=".CSE227Activity" />
+        <activity android:name=".CSE311Activity" />
+        <activity android:name=".CSE316Activity" />
+        <activity android:name=".CSE312Activity" />
+        <activity android:name=".CSE313Activity" />
+        <activity android:name=".CSE314Activity" />
+        <activity android:name=".CSE315Activity" />
+        <activity android:name=".CSE321Activity" />
+        <activity android:name=".CSE322Activity" />
+        <activity android:name=".CSE323Activity" />
+        <activity android:name=".CSE324Activity" />
+        <activity android:name=".CSE325Activity" />
+        <activity android:name=".CSE326Activity" />
+        <activity android:name=".CSE327Activity" />
+        <activity android:name=".CSE328Activity" />
+        <activity android:name=".CSE411Activity" />
+        <activity android:name=".CSE412Activity" />
+        <activity android:name=".CSE413Activity" />
+        <activity android:name=".CSE414Activity" />
+        <activity android:name=".CSE415Activity" />
+        <activity android:name=".CSE416Activity" />
+        <activity android:name=".CSE417Activity" />
+        <activity android:name=".CSE421Activity" />
+        <activity android:name=".CSE422Activity" />
+        <activity android:name=".CSE423Activity" />
+        <activity android:name=".CSE427Activity" />
+        <activity android:name=".CSE499Activity" />
+        <activity android:name=".SecondQuestionActivity" />
+        <activity android:name=".ThirdQuestionActivity" />
+        <activity android:name=".FourthQuestionActivity" />
+        <activity android:name=".FifthQuestionActivity" />
+        <activity android:name=".SixthQuestionActivity" />
+        <activity android:name=".SeventhQuestionActivity" />
+        <activity android:name=".EightQuestionActivity" />
+        <activity android:name=".Book1Activity" />
+        <activity android:name=".Book2Activity" />
+        <activity android:name=".Book3Activity" />
+        <activity android:name=".Book4Activity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,71 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:padding="13dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/subject_layout_shape"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="Digital Logic Design"
+                    android:textColor="#ffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Introductory concept,  number systems and codes,  Boolean algebra,  De Morgan’s theorems,  logic gates and their truth tables,  combinational logic circuits,  karnaugh map method,  digital arithmetic,  operations and circuits,  decoder,  encoder,  multiplexer,  and demultiplexer,  Flip flop and related devices,  race around problems,  Asynchronous and synchronous counters and their applications,  MSI logic circuits,  interfacing with analog world: D/A converter circuitry,  A/D converter circuitry." />
+
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Reference Books:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff000f"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="01.		Ronald J. Tocci &amp; Neal S. Widmer, Digital Systems Principal and Application   		\n\n02.		R P Jain, Modern Digital Electronics    		\n\n03.  William I. Fletcher, An Engineering Approach to Digital Design            \n\n04.	M. Morris Mano, Digital Logic and Computer Design
+				"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

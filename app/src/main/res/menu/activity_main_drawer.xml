@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_syllabus"
+            android:icon="@drawable/syllabus_ic"
+            android:title="Syllabus" />
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/calculator_ic"
+            android:title="CGPA Calculator" />
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/notice_ic"
+            android:title="Notice" />
+        <item
+            android:id="@+id/nav_question"
+            android:icon="@drawable/question_ic"
+            android:title="Board Questions" />
+        <item
+            android:id="@+id/nav_resource"
+            android:icon="@drawable/ic_resource"
+            android:title="Resources" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/info_ic"
+            android:title="Student Profile" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_about_app"
+                android:icon="@drawable/ic_about"
+                android:title="About App" />
+        </menu>
+    </item>
+
+</menu>

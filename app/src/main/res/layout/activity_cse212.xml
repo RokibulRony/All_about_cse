@@ -1,0 +1,65 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:padding="13dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/subject_layout_shape"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="Object Oriented Programming Language Practical"
+                    android:textColor="#ffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Laboratory works based on CSE-211"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:text="Review of C Programming;  Use of C++ Editors/ compilers;  Basic C++ input and output statements;  Functions (Call by Reference,  Function Overloading Friend and virtual function,  inline function,  default arguments etc);  Classes and Objects (Built-in and user-defined) (private,  Public,  Protected members);  Constructor and Destructor (With multiple constructor);  Arrays of objects and within class; Static data members and member functions;  Dynamic and copy constructor;  Operator overloading (Unary,  binary,  string);  Different types of inheritance(with access specifiers);  Virtual base class;  Pointers (this, reference,…),  Polymorphism,  Dynamic binding;  File processing(Create,  read,  write and  update files sequential access and random access file processing);  Development of Integrated software
+
+ 
+using multiple C++ feature;  Some problems on Numerical Analysis (Solution of Linear equation,  Iterative method of root finding,  Least-square curve fitting, etc.).
+
+"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
